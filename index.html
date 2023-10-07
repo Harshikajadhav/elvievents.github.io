@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="lib/">
 <style>
 body, html {
   height: 100%;
@@ -9,14 +10,15 @@ body, html {
 .bgimg {
   
   height: 100%;
-  background-position: center;
-  background-size: cover;
+  width: auto;
   position: relative;
   
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
-
+img{
+  height: 100%;
+}
 .topleft {
   position: absolute;
   top: 0;
@@ -44,24 +46,20 @@ hr {
 </style>
 <body>
 
-<div class="bgimg">
-  <img src="https://elvikitchens.github.io/Images/elvi%20dark.png">
-  <div class="topleft">
-    <p>Logo</p>
-  </div>
+ 
+  <img src="img/elvi light.png">
   <div class="middle">
     <h1>COMING SOON</h1>
+    <p>The website for Elvi Events is in the process of being constructed. </p>
     <hr>
     <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-    <p>Some text</p>
-  </div>
+    
+  
 </div>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Nov 26, 2023 0:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
