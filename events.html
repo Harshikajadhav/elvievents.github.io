@@ -53,15 +53,17 @@
     <div id="visitedprev"></div>
   <body onload="myFunction()" style="margin:0;">
     
-   
-     <img id="loader" src="img/Untitled design (3).gif" style="display:none;">
+    
+     <img id="loader" src="img\Crafting Moments For You.gif" style="display:none; " class="img-fluid">
  
     <div style="display:none;" id="myDiv" class="animate-bottom">
+      <div id="nav-placeholder">
 
+      </div>
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="https://cdn0.weddingwire.in/vendor/5120/3_2/960/jpg/file-1658146725172_15_415120-165814672914290.webp" class="card-img-top" alt="...">
+            <img src="img/venue.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Venue</h5>
               <p class="card-text">Fill in please This content is a little bit longer.</p>
@@ -70,7 +72,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img\decorPics\Wedding\SRxGS-17.jpg" class="card-img-top" alt="...">
+            <img src="img\Wedding\SRxGS-17.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Decoration</h5>
               <p class="card-text">Fill in please This content is a little bit longer.</p>
@@ -230,7 +232,11 @@ function showPage() {
 }
 
     </script>
-  
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
   </body>
 </html>
 <!--localStorage.setItem("visitedprev", 1);
