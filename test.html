@@ -54,26 +54,12 @@
   <body onload="myFunction()" style="margin:0;">
     
    
-     <img id="loader" src="img/Untitled design (3).gif" style="display:none;">
+     <img id="loader" class="img-fluid" src="img\Crafting Moments For You.gif" style="display:none;">
  
     <div style="display:none;" id="myDiv" class="animate-bottom">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="img/elviEventsLogos/web_Logo_Blue.png" alt="">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="events.html">Events</a>
-            <a class="nav-link" href="#">Weddings</a>
-            <a class="nav-link" href="#">About Us</a>
-           
-          </div>
-        </div>
+      <div id="nav-placeholder">
+
       </div>
-    </nav>
 
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -243,7 +229,11 @@ function showPage() {
 
 
     </script>
-  
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
   </body>
 </html>
 <!--localStorage.setItem("visitedprev", 1);
