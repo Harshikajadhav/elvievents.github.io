@@ -5,4 +5,32 @@
   text-align: center;
   
 }
+.nav-img{
+  max-width: 100px;
+  max-height: 100%;
+}
 
+
+.animate{
+  display: gridplace;
+  place-items: center;
+  align-content: center;
+  /*min-height: 100vh;*/
+}
+.hidden {
+  opacity:0;
+  transform: translateY(-50%);
+  filter: blur(5px);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  filter:blur(0);
+}
+@media(prefers-reduced-motion){
+  .hidden {
+      transition:none;
+
+  }
+}
