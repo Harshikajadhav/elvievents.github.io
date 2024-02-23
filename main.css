@@ -34,3 +34,49 @@
 
   }
 }
+.img-load{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  
+}
+.img-loading{
+  max-width: 100%;
+  
+  height:auto
+  
+}
+
+
+@media (max-width:767px) {
+  .scroll-img {
+      max-width: 50%;
+      max-height: 50%;
+      
+  }
+}
+
+@media (min-width:768px) {
+  .scroll-img {
+      max-width: 240px;
+      max-height: 240px;
+  }
+}
+
+@media (min-width:992px) {
+  .scroll-img {
+      max-width: 314px;
+      max-height: 314px;
+  }
+}
+
+@media (min-width:1200px) {
+  .scroll-img {
+      max-width: 380px;
+      max-height:380px;
+  }
+}
