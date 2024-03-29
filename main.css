@@ -50,7 +50,9 @@
   height:auto
   
 }
-
+.scroll-img{
+  padding: 10px;
+}
 
 @media (max-width:767px) {
   .scroll-img {
@@ -76,7 +78,7 @@
 
 @media (min-width:1200px) {
   .scroll-img {
-      max-width: 380px;
-      max-height:380px;
+      max-width: 50%;
+      max-height:50%;
   }
 }
