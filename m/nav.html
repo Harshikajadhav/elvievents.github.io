@@ -1,20 +1,8 @@
-<!--end of Navigation bar-->
-<script src="..\lib\detectmobile.js"></script>
-<script>console.log("detectmobile.js loaded");
-  try {
-          // This is the URL where mobile
-          detectmobile.defaultMobileURL = "/m/nav.html";
-          console.log("Sending to mobile website");
-          detectmobile.process();
-  } catch(e) {
-          // Make sure that in the fault modes
-          // we do not interrupt execution of other Javascript code
-  }
 </script>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <div class="navbar-brand navbar-logo img-fluid text-center " >
-      <img src="img\Elvi Logo w-o bg\Elvi_TT_lightblue.png" alt="Logo" class="nav-img" >
+      <img src="..\img\Elvi Logo w-o bg\Elvi_TT_lightblue.png" alt="Logo" class="nav-img" >
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,7 +12,7 @@
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link" href="events.html">Events</a>
         
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="about-us.html">About Us</a>
        
       </div>
     </div>
