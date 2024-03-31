@@ -52,31 +52,7 @@
 }
 
 
-@media (max-width:767px) {
-  .scroll-img {
-      max-width: 75%;
-      max-height: 25%;
-      
-  }
-}
-
-@media (min-width:768px) {
-  .scroll-img {
-      max-width: 240px;
-      max-height: 240px;
-  }
-}
-
-@media (min-width:992px) {
-  .scroll-img {
-      max-width: 314px;
-      max-height: 314px;
-  }
-}
-
-@media (min-width:1200px) {
-  .scroll-img {
-      max-width: 25%;
-      max-height:50%;
-  }
+.scroll-img{
+  min-width: 100%;
+  height: 750px;
 }
