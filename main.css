@@ -50,14 +50,12 @@
   height:auto
   
 }
-.scroll-img{
-  padding: 10px;
-}
+
 
 @media (max-width:767px) {
   .scroll-img {
-      max-width: 50%;
-      max-height: 50%;
+      max-width: 75%;
+      max-height: 25%;
       
   }
 }
@@ -78,7 +76,7 @@
 
 @media (min-width:1200px) {
   .scroll-img {
-      max-width: 50%;
+      max-width: 25%;
       max-height:50%;
   }
 }
