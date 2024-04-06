@@ -8,19 +8,7 @@
     <script defer src="app.js"></script>
    <!-- Transfer to Mobile Website-->
     <script src="lib\detectmobile.js"></script>
-    <script>console.log("detectmobile.js loaded");
-      try {
-              // This is the URL where mobile
-              detectmobile.defaultMobileURL = "testm.html";
-             
-              detectmobile.process();
-              
-      } catch(e) {
-              // Make sure that in the fault modes
-              // we do not interrupt execution of other Javascript code
-      }
-      console.log("Not sent to moblie website");
-    </script>
+    
     
     
      <!-- Bootstrap CSS CDN -->
@@ -219,7 +207,7 @@ function showPage() {
 <!--Nav loader script-->
   <script>
     $(function(){
-      $("#nav-placeholder").load("nav.html");
+      $("#nav-placeholder").load("navm.html");
     });
     console.log('Nav Loaded');
     </script>
